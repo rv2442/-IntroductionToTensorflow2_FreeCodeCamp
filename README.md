@@ -1,6 +1,6 @@
 # IntroductionToTensorflow2_FreeCodeCamp
 
-__This is used for creating a model and pridicting traffic signs based on the GTSRB (German Traffic Sign Recognition Benchmark) Dataset.__   
+__This is used for creating a model and predicting traffic signs based on the GTSRB (German Traffic Sign Recognition Benchmark) Dataset.__   
 
 
 ## Context
