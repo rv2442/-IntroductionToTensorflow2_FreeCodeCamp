@@ -1,4 +1,4 @@
-# IntroductionToTensorflow2_FreeCodeCamp
+# Model for GTSRB & MNist
 
 __This is used for creating a model and predicting traffic signs, based on the GTSRB (German Traffic Sign Recognition Benchmark) Dataset.__   
 
