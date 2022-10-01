@@ -59,6 +59,8 @@ Run my_predictor.py after updating the image path with the path of the image to 
 __Note__ in windows folders are numbered in the following sequence,
 > 0,1,10,11,12,13,14,15,16,17,18,19,2,20,21,22,23,24,25,26,27,28,29,3,30,31,32,33,34 ...  
 
+If you want to run __mnist_example.py__, just execute the file. The dataset will be downloaded automatically when running for the first time.  
+
 
 
 
