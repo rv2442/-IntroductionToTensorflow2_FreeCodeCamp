@@ -1,6 +1,6 @@
 # IntroductionToTensorflow2_FreeCodeCamp
 
-__This is used for creating a model and predicting traffic signs based on the GTSRB (German Traffic Sign Recognition Benchmark) Dataset.__   
+__This is used for creating a model and predicting traffic signs, based on the GTSRB (German Traffic Sign Recognition Benchmark) Dataset.__   
 
 
 ## Context
@@ -38,16 +38,16 @@ __Preprocessing__ : First the data was divided with a split_size of 0.1 using ``
 ### MODEL Architecture 
 >CONVOLUTIONAL LAYER  
 >MAXPOOL LAYER   
->BATCH NORMALIZATION  
+>BATCH NORMALIZATION LAYER
 >CONVOLUTIONAL LAYER   
 >MAXPOOL LAYER   
->BATCH NORMALIZATION   
+>BATCH NORMALIZATION LAYER  
 >CONVOLUTIONAL LAYER   
 >MAXPOOL LAYER   
->BATCH NORMALIZATION      
->FLATTEN  
->DENSE  
->DENSE  
+>BATCH NORMALIZATION LAYER    
+>FLATTEN LAYER
+>DENSE LAYER
+>DENSE LAYER
 
 ### USER GUIDE
 __Training and Testing__:  
