@@ -45,9 +45,9 @@ __Preprocessing__ : First the data was divided with a split_size of 0.1 using ``
 >CONVOLUTIONAL LAYER   
 >MAXPOOL LAYER   
 >BATCH NORMALIZATION LAYER    
->FLATTEN LAYER
->DENSE LAYER
->DENSE LAYER
+>FLATTEN LAYER  
+>DENSE LAYER  
+>DENSE LAYER  
 
 ### USER GUIDE
 __Training and Testing__:  
