@@ -12,7 +12,7 @@ The German Traffic Sign Benchmark is a multi-class, single-image classification 
 4. Large, lifelike database
  
  
- ## Traning accuracy
+ ## Training accuracy
 ![Training](https://user-images.githubusercontent.com/69571769/193198328-53894669-94e9-43f6-ba2f-f81a1e008fec.jpeg)
 
 
