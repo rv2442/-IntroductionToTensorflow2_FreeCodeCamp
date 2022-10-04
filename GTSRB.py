@@ -1,14 +1,20 @@
+
+# Global Imports
 import os
 import glob
 import shutil
+import tensorflow
 from sklearn.model_selection import train_test_split
+from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
+
+# Project Imports
 from my_utils import split_data, order_test_set
 from deeplearning_models import streetsigns_model, create_generators
-from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
-import tensorflow
+
 
 if __name__ == "__main__":
     
+    # Change False to True when you have to split Data in train and val sets
     if False:
 
         pathToData = r"C:\Users\Rahul\OneDriveSky\Desktop\PROJ FILES\ADAS\archive\Train"
@@ -16,6 +22,7 @@ if __name__ == "__main__":
         pathToSaveVal = r"C:\Users\Rahul\OneDriveSky\Desktop\PROJ FILES\ADAS\archive\training_data\val"
         split_data(pathToData = pathToData , pathToSaveTrain = pathToSaveTrain, pathToSaveVal = pathToSaveVal)
 
+    # Change False to True when you have to order test set and extract labels
     if False:
 
         pathToImages = r"C:\Users\Rahul\OneDriveSky\Desktop\PROJ FILES\ADAS\archive\Test"
@@ -26,10 +33,12 @@ if __name__ == "__main__":
     pathToVal = r"C:\Users\Rahul\OneDriveSky\Desktop\PROJ FILES\ADAS\archive\training_data\val"
     pathToTest = r"C:\Users\Rahul\OneDriveSky\Desktop\PROJ FILES\ADAS\archive\Test"
     
-
+    
+    # Change to True/False according to requiment, changing values will activate training and testing code
     TRAIN = True
     TEST = False
-
+    
+    # Parameters
     batch_size = 64
     epochs = 10
 
