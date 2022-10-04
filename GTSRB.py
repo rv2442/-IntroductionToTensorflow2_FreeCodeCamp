@@ -47,7 +47,9 @@ if __name__ == "__main__":
     
     if TRAIN:
         pathToSaveModel = "./Models"
-        ckpt_saver = ModelCheckpoint(
+
+     # Create Model Checkpoints i.e Check for accuracy at each epoch and save the model when maximum validation accuracy is found
+        ckpt_saver = ModelCheckpoint( 
             pathToSaveModel,
             monitor = 'val_accuracy',
             mode = 'max',
@@ -56,9 +58,10 @@ if __name__ == "__main__":
             verbose = 1
         )
 
+    # if validation accuracy does not improve after 10 epochs stop training
         early_stop = EarlyStopping(
             monitor="val_accuracy",
-            patience=10 # if validation accuracy does not improve after 10 epochs stop training
+            patience=10 
         )
 
         model = streetsigns_model(nbr_classes)
@@ -84,6 +87,7 @@ if __name__ == "__main__":
 
 
     if TEST:
+        # Load Model and show Model Summary, thereafter evaluate model on validation and test sets
         model = tensorflow.keras.models.load_model('./Models')
         model.summary()
 
