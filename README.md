@@ -1,4 +1,4 @@
-# Model for GTSRB & MNist
+# Model for GTSRB & MNIST  
 
 __This is used for creating a model and predicting traffic signs, based on the GTSRB (German Traffic Sign Recognition Benchmark) Dataset.__   
 
