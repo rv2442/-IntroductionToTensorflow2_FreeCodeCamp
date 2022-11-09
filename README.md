@@ -68,4 +68,4 @@ If you want to run __mnist_example.py__, just execute the file. The dataset will
 
 
 >QUICK UPDATE:
-> We were able to train and classify traffic lights(customly addwed to dataset) and signs which were not there in the dataset
+> We were able to train and classify traffic lights(customly added to dataset) and signs which are not there in the dataset
